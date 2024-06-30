@@ -1,0 +1,41 @@
+.container {
+  width: auto;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 6vh;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.51);
+  padding: 1%;
+}
+
+.icons {
+  width: 100px;
+  height: 100px;  
+  transition: all 0.5s ease;
+}
+
+
+@media screen and (max-width: 1440px){
+  .icons {
+    width: 65px;
+    height: 65px;  
+    
+  }
+}
+@media screen and (max-width: 768px) {
+  /* Cambia el número en max-width según sea necesario */
+  content {
+    width: 15%;
+    max-width: 100%; /* Evita que se haga más ancho que el 100% del viewport */
+    margin-left: 10vw;
+    margin-right: auto;
+    margin-top: -5vh;
+    margin-bottom: 10vh;
+  }
+
+  .icons {
+    width: auto;
+    height: auto;
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "basics": {
+    "name": "Ivan Trejo",
+    "label": "Full-Stack Developer",
+    "email": "ivanjtrejoc@gmail.com",
+    "phone": "(+57) 3202430789",
+    "picture": "it-black.png",
+    "x_title": "Hello, I'm",
+    "job1": "Full-Stack",
+    "job2": "Developer",
+    "description": "Hello world!",
+    "summary": "based Medellín, Colombia.",
+    "keywords": "personal,website,portfolio,template,kit,ivan,trejo,webdev,web,developer,colombia,medellín,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
+    "url": "https://ivantrejo.vercel.app/",
+    "location": {
+      "address": "XX XXXXXstreet",
+      "postalCode": "XXXXX",
+      "city": "Medellín",
+      "country": "Colombia",
+      "countryCode": "Col",
+      "region": "Antioquia"
+    },
+    "profiles": [
+      {
+        "network": "Google",
+        "username": "ivanjtrejoc@gmail.com",
+        "url": "mailto:ivanjtrejoc@gmail.com",
+        "x_icon": "fab fa-google"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "ivanjtrejoc",
+        "url": "https://www.linkedin.com/in/ivanjtrejoc/",
+        "x_icon": "fab fa-linkedin-in"
+      },
+      {
+        "network": "GitHub",
+        "username": "ivantrejoc",
+        "url": "https://github.com/ivantrejoc",
+        "x_icon": "fab fa-github"
+      },
+
+      {
+        "network": "Telegram",
+        "username": "ivantrejoc",
+        "url": "https://t.me/ivantrejoc",
+        "x_icon": "fab fa-telegram-plane"
+      },
+      {
+        "network": "WhatsApp",
+        "username": "Ivan Trejo",
+        "url": "https://walink.co/dad99f",
+        "x_icon": "fab fa-whatsapp"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "Web Development",
+      "keywords": ["HTML", "CSS", "Javascript", "react", "next", "zustand", "redux", "express", "node","sequelize", "mysql", "postgres", "mongoDB", "bootstrap", "tailwindCSS", "materialUI", "firebase"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Good knowledge"
+    }    
+  ]
+  
+}
