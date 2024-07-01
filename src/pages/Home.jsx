@@ -7,6 +7,7 @@ import { Resume } from "../components/resume/Resume";
 import { SocialIcons } from "../components/content/SocialIcons";
 import { SpeedDials } from "../components/speedDial/SpeedDial";
 import { SideNavbar } from "../components/nav/SideNavbar";
+import { DropdownMenu } from "../components/dropdownMenu/DropdownMenu";
 import { Works } from "../components/works/Works";
 import { About } from "../components/about/About";
 import { Contact } from "../components/contact/Contact";
@@ -24,7 +25,8 @@ export const Home = () => {
           marginTop: "2rem",
           display: "flex",
           flexDirection: "column",
-          minHeight: "100vh"
+          minHeight: "100vh",
+          overflowX: "hidden"
         }}
       >
         <DisplacementSphere />
@@ -34,7 +36,7 @@ export const Home = () => {
         {!isMobile ? <SocialIcons /> : <SpeedDials />}
         <Resume />
       </Box>
-      <SideNavbar />
+      {!isMobile ? <SideNavbar /> : <DropdownMenu />}
       <Works />
       <TechStack />
       <About />

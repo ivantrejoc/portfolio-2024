@@ -50,7 +50,7 @@ export const SpeedDials = () => {
         open={open}
         direction="down"
         sx={{
-          position: "absolute",
+          position: "fixed",
           top: theme.spacing(6),
           right: theme.spacing(6)
         }}
