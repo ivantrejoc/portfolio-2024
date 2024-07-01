@@ -226,13 +226,11 @@ export const DarkTheme = responsiveFontSizes(
     },
     breakpoints: {
       values: {
-        xs: 375,
-        sm: 576,
-        md: 768,
-        lg: 992,
-        xl: 1200,
-        xxl: 1530,
-        xxxl: 1710
+        xs: 0,
+        sm: 600,
+        md: 960,
+        lg: 1280,
+        xl: 1920
       }
     }
   })
