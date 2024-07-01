@@ -9,19 +9,26 @@ export const Content = () => {
   return (
     <Container
       component="main"
-      sx={{
+      sx={{       
         maxWidth: "100vw",
         marginTop: "10vw",
-        marginBottom: "auto"
+        marginBottom: "12vh",
+        [theme.breakpoints.down("md")]: {
+          marginTop: "30vh",
+          marginBottom: "17vh"
+        },
+        [theme.breakpoints.down("md")]: {
+          marginTop: "20vh",
+          marginBottom: "30vh"
+        }
       }}
-      maxWidth="md"
     >
       <Box
         component="header"
         sx={{
-          marginLeft: theme.spacing(10),
-          [theme.breakpoints.down("lg")]: {
-            marginLeft: theme.spacing(20)
+          marginLeft: theme.spacing(40),
+          [theme.breakpoints.down("md")]: {
+            marginLeft: theme.spacing(30)
           },
           [theme.breakpoints.down("sm")]: {
             marginLeft: theme.spacing(10)
@@ -38,6 +45,10 @@ export const Content = () => {
             [theme.breakpoints.down("md")]: {
               fontSize: "3rem",
               lineHeight: "3rem"
+            },
+            [theme.breakpoints.down("sm")]: {
+              fontSize: "2.75rem",
+              lineHeight: "2.75rem"
             }
           }}
         >

@@ -17,6 +17,9 @@ export const Resume = () => {
         position: "fixed",
         bottom: theme.spacing(6),
         left: theme.spacing(6),
+        [theme.breakpoints.down("sm")]:{          
+          bottom: theme.spacing(2),
+        },
         "&:hover": {
           color: theme.palette.primary.main
         },

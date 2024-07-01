@@ -52,7 +52,10 @@ export const SpeedDials = () => {
         sx={{
           position: "fixed",
           top: theme.spacing(6),
-          right: theme.spacing(6)
+          right: theme.spacing(6),
+          [theme.breakpoints.down("sm")]:{
+            right: theme.spacing(4),
+          },
         }}
       >
         {actionIcons}

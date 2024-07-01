@@ -61,22 +61,15 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        SERVICE_ID,
-        TEMPLATE_ID,
-        form.current,
-        PUBLIC_KEY
-      )
-      .then(
-        (result) => {
-          resetForm();
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY).then(
+      (result) => {
+        resetForm();
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
     Swal.fire({
       position: "center",
       icon: "success",
@@ -94,7 +87,10 @@ export const Contact = () => {
         sx={{
           maxWidth: "100vw",
           marginTop: "3em",
-          marginBottom: "3em"
+          marginBottom: "3em",
+          [theme.breakpoints.down("lg")]: {
+            justifyContent: "center"
+          }
         }}
         maxWidth="md"
       >
@@ -184,9 +180,9 @@ export const Contact = () => {
               )}
             </form>
           </div>
-          <h1 className="contact_msg">
+          <h5 className="contact_msg">
             <TextDecrypt text={greetings} />
-          </h1>
+          </h5>
         </div>
       </Container>
     </section>

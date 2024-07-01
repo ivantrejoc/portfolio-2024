@@ -15,11 +15,14 @@ export const About = () => {
     <section id="about">
       <Container
         component="main"
-        sx={{
-          display: "flex",
+        sx={{          
+          display: "flex",         
           maxWidth: "100vw",
           marginTop: "3em",
-          marginBottom: "auto"
+          marginBottom: "auto",
+          [theme.breakpoints.down("lg")]:{
+            justifyContent: "center",
+          }
         }}
         maxWidth="md"
       >

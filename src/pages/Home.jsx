@@ -35,12 +35,12 @@ export const Home = () => {
         <ThemeToggle />
         {!isMobile ? <SocialIcons /> : <SpeedDials />}
         <Resume />
+        {!isMobile ? <SideNavbar /> : <DropdownMenu />}
+        <Works />
+        <TechStack />
+        <About />
+        <Contact />
       </Box>
-      {!isMobile ? <SideNavbar /> : <DropdownMenu />}
-      <Works />
-      <TechStack />
-      <About />
-      <Contact />
     </Box>
   );
 };

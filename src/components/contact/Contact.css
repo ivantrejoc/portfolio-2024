@@ -1,5 +1,5 @@
 .contact {    
-  display: flex;
+  display: flex;  
   width: 90%;
   margin-left: 5rem;
   margin-right: 10rem;
@@ -16,7 +16,7 @@
   padding: 2em;
 }
 
-.form{
+.form{  
   maxWidth: 100vw;
   marginTop: 3em;
   marginBottom: 3em;  
@@ -59,8 +59,8 @@
 }
 @media (max-width: 768px) {
   .contact {
-    width: 70%;
-    margin-left: 8rem;
+    width: 60%;
+    margin-left: 10rem;
     margin-right: 4rem;
     margin-bottom: 7em;
     flex-direction: column;
@@ -73,5 +73,33 @@
   }
   .contact {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact {
+    width: 80%;
+    margin-left: 3rem;
+    margin-right: auto;
+    margin-bottom: 7em;
+    flex-direction: column;
+  }
+
+  .contact_msg {
+    font-size: 3rem;
+    margin: 2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .contact {    
+    margin-left: 2rem;
+    margin-right: auto;
+    margin-bottom: 7em;
+    flex-direction: column;
+  }
+  .contact_msg {
+    font-size: 3rem;
+    margin: 1rem;
   }
 }

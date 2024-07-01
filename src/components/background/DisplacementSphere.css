@@ -25,4 +25,24 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
+
+@media (max-width: 768px){
+  .displacement-sphere-container {    
+    height: 70vh;
+  }
+}
+
+@media (max-width: 600px){
+  .displacement-sphere-container {
+    width: 80vw;    
+  }
+  .displacement-sphere {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+}
+

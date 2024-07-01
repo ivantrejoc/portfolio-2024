@@ -22,6 +22,10 @@ export const ThemeToggle = () => {
           position: "fixed",
           bottom: theme.spacing(6),
           right: theme.spacing(6),
+          [theme.breakpoints.down("sm")]:{
+            right: theme.spacing(4),
+            bottom: theme.spacing(2),
+          },
           height: "2.5rem",
           width: "2.5rem"
         }}

@@ -2,7 +2,6 @@
 import { useState } from "react";
 import { Container, useTheme } from "@mui/material";
 import { TextDecrypt } from "../content/TextDecrypt";
-import "./Works.css";
 import Wanderlust from "../../assets/recentprojects/wanderlust.png";
 import Pokemon from "../../assets/recentprojects/pokemon.png";
 import Portfolio from "../../assets/recentprojects/portfolio.png";
@@ -11,6 +10,7 @@ import Now from "../../assets/recentprojects/now.png";
 import Vsp from "../../assets/recentprojects/vsp.png";
 import Buime from "../../assets/recentprojects/buime-shop.png";
 import AgencySpotter from "../../assets/recentprojects/agency-spotter.png";
+import "./Works.css";
 
 export const Works = () => {
   const theme = useTheme();
@@ -89,8 +89,7 @@ export const Works = () => {
     <section id="works">
       <Container
         component="main"
-        sx={{
-          maxWidth: "100vw",
+        sx={{          
           marginTop: "3em",
           display: "flex",
           flexDirection: "column",
@@ -109,7 +108,9 @@ export const Works = () => {
             <div
               className="__content_wrapper"
               style={{
-                background: isLightTheme ? "rgba(249, 249, 249, 0.8)" : "rgba(109, 109, 109, 0.4)"
+                background: isLightTheme
+                  ? "rgba(249, 249, 249, 0.8)"
+                  : "rgba(109, 109, 109, 0.4)"
               }}
             >
               <a href={project.url} className="link">

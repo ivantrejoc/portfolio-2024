@@ -1,4 +1,4 @@
-import Helmet from "react-helmet";
+import { Helmet } from "react-helmet";
 import Resume from "../../../portfolio/src/settings/resume.json";
 import Settings from "../../../portfolio/src/settings/settings.json";
 
