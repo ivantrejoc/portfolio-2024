@@ -102,6 +102,9 @@ export const Logo = () => {
             height: "50px",
             top: theme.spacing(6.2),
             left: theme.spacing(6.3),
+            [theme.breakpoints.down("sm")]:{
+              left: theme.spacing(4.3),
+            },
             "&:hover": {
               fill: theme.palette.primary.main
             },
