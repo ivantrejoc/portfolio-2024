@@ -6,6 +6,7 @@ import "./DisplacementSphere.css";
 import sphereImage from "../../assets/vecteezy_3d-illustration-holographic-abstract-shape_23638405.png";
 
 const DisplacementSphere = () => {
+  const nodeRef = useRef(null);
   const sphereRef = useRef(null);
   const sphereImageRef = useRef(null);
 
@@ -43,7 +44,7 @@ const DisplacementSphere = () => {
   }, []);
 
   return (
-    <Transition appear in onEnter={reflow} timeout={3000}>
+    <Transition appear in onEnter={reflow} timeout={3000} ref={nodeRef}>
       {(status) => (
         <div
           aria-hidden

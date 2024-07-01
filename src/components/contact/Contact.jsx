@@ -15,8 +15,7 @@ export const Contact = () => {
   const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
   const SERVICE_ID = import.meta.env.VITE_SERVICE_ID;
   const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
-
-  console.log("LAS ENV: ", TEMPLATE_ID, SERVICE_ID, PUBLIC_KEY);
+ 
   const [input, setInput] = useState({
     from_name: "",
     from_email: "",
