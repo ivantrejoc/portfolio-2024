@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
-import { Container, Box } from "@mui/material";
+import { Container, useTheme } from "@mui/material";
 import { TextDecrypt } from "../content/TextDecrypt";
 import "./Works.css";
 import Wanderlust from "../../assets/recentprojects/wanderlust.png";
@@ -13,6 +13,8 @@ import Buime from "../../assets/recentprojects/buime-shop.png";
 import AgencySpotter from "../../assets/recentprojects/agency-spotter.png";
 
 export const Works = () => {
+  const theme = useTheme();
+  const isLightTheme = theme.palette.mode === "light";
   const [projects, setProjects] = useState([
     {
       id: 1,
@@ -104,7 +106,12 @@ export const Works = () => {
               <img src={project.image} alt={project.alter} />
             </div>
 
-            <div className="__content_wrapper">
+            <div
+              className="__content_wrapper"
+              style={{
+                background: isLightTheme ? "rgba(249, 249, 249, 0.8)" : "rgba(109, 109, 109, 0.4)"
+              }}
+            >
               <a href={project.url} className="link">
                 <h3 className="title">
                   <TextDecrypt text={project.id + ". " + project.title} />

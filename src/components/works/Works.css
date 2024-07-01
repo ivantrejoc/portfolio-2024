@@ -12,6 +12,7 @@
   width: 100%;
 }
 .__content_wrapper {  
+  background: rgba(249, 249, 249, 0.8);  
   width: 50%;
   justify-content: center;
   align-items: center;

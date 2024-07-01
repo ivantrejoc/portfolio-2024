@@ -5,11 +5,18 @@ import { TextDecrypt } from "../content/TextDecrypt";
 import Swal from "sweetalert2";
 import validation from "./validation";
 import emailjs from "@emailjs/browser";
+
 import "./Contact.css";
 
 export const Contact = () => {
   const theme = useTheme();
+  const isLightTheme = theme.palette.mode === "light";
   const greetings = "Say hello.";
+  const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
+  const SERVICE_ID = import.meta.env.VITE_SERVICE_ID;
+  const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
+
+  console.log("LAS ENV: ", TEMPLATE_ID, SERVICE_ID, PUBLIC_KEY);
   const [input, setInput] = useState({
     from_name: "",
     from_email: "",
@@ -56,10 +63,10 @@ export const Contact = () => {
 
     emailjs
       .sendForm(
-        "react_contact_detail",
-        "portfolio_message",
+        SERVICE_ID,
+        TEMPLATE_ID,
         form.current,
-        "WxzkLxoK17I5X9Ccn"
+        PUBLIC_KEY
       )
       .then(
         (result) => {
@@ -92,7 +99,14 @@ export const Contact = () => {
         maxWidth="md"
       >
         <div className="contact">
-          <div className="_form_wrapper">
+          <div
+            className="_form_wrapper"
+            style={{
+              background: isLightTheme
+                ? "rgba(249, 249, 249, 0.8)"
+                : "rgba(109, 109, 109, 0.4)"
+            }}
+          >
             <form ref={form} onSubmit={sendEmail} className="form">
               <TextField
                 id="outlined-name-input"

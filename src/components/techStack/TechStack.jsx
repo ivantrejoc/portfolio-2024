@@ -13,9 +13,18 @@ import "./techStack.css";
 
 export const TechStack = () => {
   const theme = useTheme();
+  const isLightTheme = theme.palette.mode === "light";
 
   return (
-    <section id="techstack" className="container">
+    <section
+      id="techstack"
+      className="container"
+      style={{
+        background: isLightTheme
+          ? "rgba(249, 249, 249, 0.8)"
+          : "rgba(109, 109, 109, 0.4)"
+      }}
+    >
       <Typography
         variant="h3"
         sx={{
