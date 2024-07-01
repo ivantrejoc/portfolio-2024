@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
-import resume from "../../../portfolio/src/settings/resume.json";
-import settings from "../../../portfolio/src/settings/settings.json";
+import resume from "./settings/resume.json";
+import settings from "./settings/settings.json";
 
 export const HelmetMeta = () => {
     return (
