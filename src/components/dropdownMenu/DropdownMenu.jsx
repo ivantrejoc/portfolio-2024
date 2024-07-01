@@ -32,9 +32,14 @@ export const DropdownMenu = () => {
         marginLeft: "18vw",
         marginRight: "auto",
         marginBottom: "1.5rem",
+        [theme.breakpoints.down("md")]: {
+          top: "5%"
+        },
         [theme.breakpoints.down("sm")]: {
-          marginLeft: "30vw"
+          marginLeft: "30vw",
+          top: "6%"
         }
+        
       }}
     >
       <Button
