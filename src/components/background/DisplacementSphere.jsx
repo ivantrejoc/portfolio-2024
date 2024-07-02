@@ -3,7 +3,7 @@ import { Transition } from "react-transition-group";
 import { reflow } from "../../utils/transition";
 import { gsap } from "gsap";
 import "./DisplacementSphere.css";
-import sphereImage from "../../assets/vecteezy_3d-illustration-holographic-abstract-shape_23638405.png";
+import sphereImage from "../../assets/img/vecteezy_3d-illustration-holographic-abstract-shape_23638405.webp";
 
 const DisplacementSphere = () => {
   const nodeRef = useRef(null);

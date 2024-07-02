@@ -2,15 +2,15 @@
 import { useState } from "react";
 import { Container, useTheme } from "@mui/material";
 import { TextDecrypt } from "../content/TextDecrypt";
-import Wanderlust from "../../assets/recentprojects/wanderlust.png";
-import Worksplace from "../../assets/recentprojects/worksplace.png";
-import Now from "../../assets/recentprojects/now.png";
-import Vsp from "../../assets/recentprojects/vsp.png";
-import Buime from "../../assets/recentprojects/buime-shop.png";
-import Chelion from "../../assets/recentprojects/chelion.png";
-import WebWizard from "../../assets/recentprojects/web-wizard.png";
-import DiomarGarcia from "../../assets/recentprojects/diomar-garcia.png";
-import Zoero from "../../assets/recentprojects/zoero-website.png";
+import Wanderlust from "../../assets/img/wanderlust.webp";
+import Worksplace from "../../assets/img/worksplace.webp";
+import Now from "../../assets/img/now.webp";
+import Vsp from "../../assets/img/vsp.webp";
+import Buime from "../../assets/img/buime-shop.webp";
+import Chelion from "../../assets/img/chelion.webp";
+import WebWizard from "../../assets/img/web-wizard.webp";
+import DiomarGarcia from "../../assets/img/diomar-garcia.webp";
+import Zoero from "../../assets/img/zoero-website.webp";
 
 import "./Works.css";
 

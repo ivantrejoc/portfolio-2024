@@ -27,7 +27,7 @@ export const TechStack = () => {
     >
       <Typography
         variant="h3"
-        sx={{
+        sx={{          
           marginTop: "1vw",
           marginLeft: "9vw",
           justifyContent: "start",
@@ -39,7 +39,8 @@ export const TechStack = () => {
         Tech Stack
       </Typography>
       <Grid
-        sx={{
+        sx={{          
+          width: "75%",
           marginTop: "1vw",
           marginLeft: "9vw",
           marginRight: "auto",
@@ -47,18 +48,18 @@ export const TechStack = () => {
           display: "grid",
           gridTemplateColumns: "repeat(5, 1fr)",
           gridTemplateRows: "1fr, 1fr",
-          gridGap: theme.spacing(9),
+          gridGap: theme.spacing(0),
           rowGap: theme.spacing(5),
           [theme.breakpoints.down("md")]: {
-            gridGap: theme.spacing(2),
-            rowGap: theme.spacing(2),
-            marginLeft: "4vw",
+            gridGap: theme.spacing(1),
+            rowGap: theme.spacing(0),
+            marginLeft: "6vw",
             marginRight: "4vw",
             marginBottom: "auto",
             fontSize: "3rem"
           }
         }}
-        maxWidth="sm"
+        
       >
         <Grid item xs={12} sm={6} md={4} lg={3}>
           <img className="icons" src={jsIcon} alt="javascript" />
