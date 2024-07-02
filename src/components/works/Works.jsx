@@ -3,13 +3,15 @@ import { useState } from "react";
 import { Container, useTheme } from "@mui/material";
 import { TextDecrypt } from "../content/TextDecrypt";
 import Wanderlust from "../../assets/recentprojects/wanderlust.png";
-import Pokemon from "../../assets/recentprojects/pokemon.png";
-import Portfolio from "../../assets/recentprojects/portfolio.png";
 import Worksplace from "../../assets/recentprojects/worksplace.png";
 import Now from "../../assets/recentprojects/now.png";
 import Vsp from "../../assets/recentprojects/vsp.png";
 import Buime from "../../assets/recentprojects/buime-shop.png";
-import AgencySpotter from "../../assets/recentprojects/agency-spotter.png";
+import Chelion from "../../assets/recentprojects/chelion.png";
+import WebWizard from "../../assets/recentprojects/web-wizard.png";
+import DiomarGarcia from "../../assets/recentprojects/diomar-garcia.png";
+import Zoero from "../../assets/recentprojects/zoero-website.png";
+
 import "./Works.css";
 
 export const Works = () => {
@@ -18,14 +20,30 @@ export const Works = () => {
   const [projects, setProjects] = useState([
     {
       id: 1,
+      title: "Chelion",
+      description: `European solar projects leader´s website. Developed with vanilla JS, HTML5 and CSS3.`,
+      alter: "Chelion",
+      image: `${Chelion}`,
+      url: "https://chelion-website.vercel.app/"
+    },
+    {
+      id: 2,
+      title: "Web Wizard Lab",
+      description: `Web Development Agency website. Developed with Astro, and TailwindCSS components.`,
+      alter: "Web Wizard",
+      image: `${WebWizard}`,
+      url: "https://webwizardlab.com/"
+    },
+    {
+      id: 3,
       title: "Buime",
-      description: `Nice ecommerce which renders fakestore api, includes shopping cart and checkout view, will soon have a payment gateway with Stripe. Developed using Next Js, Typescript and TailwindCSS.`,
-      alter: "Worksplace",
+      description: `Nice ecommerce which renders fakestore api, includes shopping cart and checkout view, will soon have a payment runway with Stripe. Developed using Next Js, Typescript and TailwindCSS.`,
+      alter: "Buime",
       image: `${Buime}`,
       url: "https://buime-ecommerce.vercel.app/"
     },
     {
-      id: 2,
+      id: 4,
       title: "Worksplace",
       description: `Landing page to employment agency based in New York, developed in Wordpress.`,
       alter: "Worksplace",
@@ -33,56 +51,47 @@ export const Works = () => {
       url: "https://worksplaceus.com/"
     },
     {
-      id: 3,
+      id: 5,
+      title: "Diomar Garcia Eventos",
+      description: `Website of the most famous concerts producer in Colombia. Developed with Vite + React, Material UI and animations with GSAP.`,
+      alter: "Diomar García Eventos",
+      image: `${DiomarGarcia}`,
+      url: "https://diomargarcia.vercel.app/"
+    },
+    {
+      id: 6,
       title: "Now Agency",
-      description: `Landing page to marketing agency based in Medellín, Colombia. Developed in Wordpress with CSS and JS.`,
+      description: `Landing page to marketing agency based in Medellín, Colombia. Developed in Wordpress with CSS and PHP.`,
       alter: "Now Agency",
       image: `${Now}`,
       url: "https://nowagency.com.co/"
     },
     {
-      id: 4,
+      id: 7,
       title: "Vive Sano Prime",
-      description: `Landing page to health education platform based in Brazil. Developed in Wordpress with CSS and JS.`,
+      description: `Landing page to health education platform based in Brazil. Developed in Wordpress with CSS and PHP.`,
       alter: "Vive Sano",
       image: `${Vsp}`,
       url: "https://vivesanoprime.org/"
     },
     {
-      id: 5,
-      title: "React Portfolio",
-      description: `Personal Portfolio developed with ReactJS.  
-      Designed with fancy 3D animations using Three.js for 
-      the background element and MUI components.`,
-      alter: "React Portfolio",
-      image: `${Portfolio}`,
-      url: "https://ivantrejo.vercel.app/"
+      id: 8,
+      title: "Zoero",
+      description: `Beautiful website for a Marketing and strategy agency. Devolped with Vite + React, Material UI and Gsap.`,
+      alter: "Zoero",
+      image: `${Zoero}`,
+      url: "https://zoerowebsite.vercel.app/"
     },
-
+    
     {
-      id: 6,
-      title: "Agency Spotter",
-      description: `Elegant Marketing Agency landing page developed using UX/UI principles.`,
-      alter: "Agency-Spotter",
-      image: `${AgencySpotter}`,
-      url: "https://salvatech-test.webflow.io/"
-    },
-    {
-      id: 7,
+      id: 9,
       title: "Wanderlust",
-      description: `Amazing e-commerce aimed to sell travel packages. Stands out for its third-party authentication, DBB, sorts, filters, shopping cart and PayPal payment gateway.`,
+      description: `Amazing e-commerce aimed to sell travel packages. Stands out for its third-party authentication, DBB, sorts, filters, shopping cart and PayPal payment runway.`,
       alter: "Wanderlust",
       image: `${Wanderlust}`,
       url: "https://wanderlust-phi.vercel.app/home"
     },
-    {
-      id: 8,
-      title: "Pokemon",
-      description: `ReactJS app developed to render pokemon API characters. Front-end designed with tailwindCSS and Flowbite components, back-end developed with Express and database developed with Sequelize.`,
-      alter: "Pokemon",
-      image: `${Pokemon}`,
-      url: "https://pokemonivan.vercel.app/"
-    }
+    
   ]);
 
   return (

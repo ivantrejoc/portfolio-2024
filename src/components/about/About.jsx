@@ -7,21 +7,22 @@ export const About = () => {
   const theme = useTheme();
   const isLightTheme = theme.palette.mode === "light";
   const greetings = "Hello there!";
-  const aboutme = `I'm ${FirstName} ${LastName}. Code passionate based in Medellín, Antioquia, specialized on business adapted solutions development. 
-  Let´s work together and code amazing projects! 
+  const aboutme = `I'm ${FirstName} ${LastName}. Passionate about coding, based in Medellín, Colombia.
+Specialized in business-oriented solutions, Backend development with robust, efficient, and secure logic, managing SQL and NoSQL databases. Frontend development with responsive and elegant design.
+Let's work together and create amazing projects!
    `;
 
   return (
     <section id="about">
       <Container
         component="main"
-        sx={{          
-          display: "flex",         
+        sx={{
+          display: "flex",
           maxWidth: "100vw",
           marginTop: "3em",
           marginBottom: "auto",
-          [theme.breakpoints.down("lg")]:{
-            justifyContent: "center",
+          [theme.breakpoints.down("lg")]: {
+            justifyContent: "center"
           }
         }}
         maxWidth="md"
@@ -40,10 +41,13 @@ export const About = () => {
               <TextDecrypt text={`${greetings}`} />
             </Typography>
             <p className="aboutme">{aboutme}</p>
-            <a href="#contact" className="contact-btn" style={{
-              color: isLightTheme ? "#464646" : "#FAFAFA"
-
-            }}>
+            <a
+              href="#contact"
+              className="contact-btn"
+              style={{
+                color: isLightTheme ? "#464646" : "#FAFAFA"
+              }}
+            >
               <i className="fas fa-terminal"></i>
               <Typography component="span"> Send me a message.</Typography>
             </a>
