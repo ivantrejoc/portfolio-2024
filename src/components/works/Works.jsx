@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
-import LazyLoad from "react-lazy-load";
 import { Container, useTheme } from "@mui/material";
 import { TextDecrypt } from "../content/TextDecrypt";
 import Wanderlust from "../../assets/img/wanderlust.webp";
@@ -110,13 +109,9 @@ export const Works = () => {
       >
         {projects.map((project) => (
           <div className="project" key={project.id}>
-            <LazyLoad
-              className="__img_wrapper"
-              debounce={false}
-              offsetVertical={500}
-            >
+            <div className="__img_wrapper">
               <img src={project.image} alt={project.alter} />
-            </LazyLoad>
+            </div>
 
             <div
               className="__content_wrapper"
