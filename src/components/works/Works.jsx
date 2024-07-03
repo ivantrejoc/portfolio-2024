@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
+import LazyLoad from "react-lazy-load";
 import { Container, useTheme } from "@mui/material";
 import { TextDecrypt } from "../content/TextDecrypt";
 import Wanderlust from "../../assets/img/wanderlust.webp";
@@ -82,7 +83,7 @@ export const Works = () => {
       image: `${Zoero}`,
       url: "https://zoerowebsite.vercel.app/"
     },
-    
+
     {
       id: 9,
       title: "Wanderlust",
@@ -90,15 +91,14 @@ export const Works = () => {
       alter: "Wanderlust",
       image: `${Wanderlust}`,
       url: "https://wanderlust-phi.vercel.app/home"
-    },
-    
+    }
   ]);
 
   return (
     <section id="works">
       <Container
         component="main"
-        sx={{          
+        sx={{
           marginTop: "3em",
           display: "flex",
           flexDirection: "column",
@@ -110,9 +110,13 @@ export const Works = () => {
       >
         {projects.map((project) => (
           <div className="project" key={project.id}>
-            <div className="__img_wrapper">
+            <LazyLoad
+              className="__img_wrapper"
+              debounce={false}
+              offsetVertical={500}
+            >
               <img src={project.image} alt={project.alter} />
-            </div>
+            </LazyLoad>
 
             <div
               className="__content_wrapper"

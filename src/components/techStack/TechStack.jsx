@@ -1,4 +1,5 @@
 import { Grid, Typography, useTheme } from "@mui/material";
+import LazyLoad from "react-lazy-load";
 import jsIcon from "../../assets/icons/javascript-plain.svg";
 import htmlIcon from "../../assets/icons/html5-plain.svg";
 import cssIcon from "../../assets/icons/css3-plain.svg";
@@ -27,7 +28,7 @@ export const TechStack = () => {
     >
       <Typography
         variant="h3"
-        sx={{          
+        sx={{
           marginTop: "1vw",
           marginLeft: "9vw",
           justifyContent: "start",
@@ -39,7 +40,7 @@ export const TechStack = () => {
         Tech Stack
       </Typography>
       <Grid
-        sx={{          
+        sx={{
           width: "75%",
           marginTop: "1vw",
           marginLeft: "9vw",
@@ -59,37 +60,56 @@ export const TechStack = () => {
             fontSize: "3rem"
           }
         }}
-        
       >
         <Grid item xs={12} sm={6} md={4} lg={3}>
-          <img className="icons" src={jsIcon} alt="javascript" />
+          <LazyLoad debounce={false} offsetVertical={350}>
+            <img className="icons" src={jsIcon} alt="javascript" />
+          </LazyLoad>
         </Grid>
         <Grid item xs={12} sm={6} md={4} lg={3}>
-          <img className="icons" src={htmlIcon} alt="html-5" />
+          <LazyLoad debounce={false} offsetVertical={350}>
+            <img className="icons" src={htmlIcon} alt="html-5" />
+          </LazyLoad>
         </Grid>
         <Grid item xs={12} sm={6} md={4} lg={3}>
-          <img className="icons" src={cssIcon} alt="ccs-3" />
+          <LazyLoad debounce={false} offsetVertical={350}>
+            <img className="icons" src={cssIcon} alt="ccs-3" />
+          </LazyLoad>
         </Grid>
         <Grid item xs={12} sm={6} md={4} lg={3}>
-          <img className="icons" src={nodeIcon} alt="node-js" />
+          <LazyLoad debounce={false} offsetVertical={350}>
+            <img className="icons" src={nodeIcon} alt="node-js" />
+          </LazyLoad>
         </Grid>
         <Grid item xs={12} sm={6} md={4} lg={3}>
-          <img className="icons" src={reactIcon} alt="react" />
+          <LazyLoad debounce={false} offsetVertical={350}>
+            <img className="icons" src={reactIcon} alt="react" />
+          </LazyLoad>
         </Grid>
         <Grid item xs={12} sm={6} md={4} lg={3}>
-          <img className="icons" src={reduxIcon} alt="redux" />
+          <LazyLoad debounce={false} offsetVertical={350}>
+            <img className="icons" src={reduxIcon} alt="redux" />
+          </LazyLoad>
         </Grid>
         <Grid item xs={12} sm={6} md={4} lg={3}>
-          <img className="icons" src={tailwindIcon} alt="tailwind" />
+          <LazyLoad debounce={false} offsetVertical={350}>
+            <img className="icons" src={tailwindIcon} alt="tailwind" />
+          </LazyLoad>
         </Grid>
         <Grid item xs={12} sm={6} md={4} lg={3}>
-          <img className="icons" src={sequelizeIcon} alt="sequelize" />
+          <LazyLoad debounce={false} offsetVertical={350}>
+            <img className="icons" src={sequelizeIcon} alt="sequelize" />
+          </LazyLoad>
         </Grid>
         <Grid item xs={12} sm={6} md={4} lg={3}>
-          <img className="icons" src={postgresIcon} alt="postgres" />
+          <LazyLoad debounce={false} offsetVertical={350}>
+            <img className="icons" src={postgresIcon} alt="postgres" />
+          </LazyLoad>
         </Grid>
         <Grid item xs={12} sm={6} md={4} lg={3}>
-          <img className="icons" src={mongoIcon} alt="mongoDB" />
+          <LazyLoad debounce={false} offsetVertical={350}>
+            <img className="icons" src={mongoIcon} alt="mongoDB" />
+          </LazyLoad>
         </Grid>
       </Grid>
     </section>

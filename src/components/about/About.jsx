@@ -1,6 +1,7 @@
 import { Container, Typography, useTheme } from "@mui/material";
 import { TextDecrypt } from "../content/TextDecrypt";
 import { FirstName, LastName } from "../../utils/getName";
+import LazyLoad from "react-lazy-load";
 import "./About.css";
 
 export const About = () => {
@@ -28,7 +29,15 @@ Let's work together and create amazing projects!
         maxWidth="md"
       >
         <div className="about">
-          <div className="_img"></div>
+          <LazyLoad
+            className="lazy"
+            width={"100%"}
+            debounce={false}
+            offsetVertical={400}
+          >
+            <div className="_img"></div>
+          </LazyLoad>
+
           <div
             className="_content_wrapper"
             style={{

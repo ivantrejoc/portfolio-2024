@@ -1,4 +1,4 @@
-.about {    
+.about {  
   width: 100%;
   display: flex;
   align-items: center;
@@ -8,13 +8,19 @@
   width: 30%;
   font-size: 1.15rem;
 }
+
+.lazy {  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 ._img {
   background: url("../../assets/img/profile.webp");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   margin: 4em;
-  width: 35em;
+  width: 20em;
   height: 20em;
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -28,7 +34,7 @@
   height: fit-content;
   padding: 0 1rem 0 1rem;
   border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.51);
   box-sizing: border-box;
 }
@@ -56,9 +62,10 @@
 }
 @media (max-width: 768px) {
   .about {
-    margin-left: 4em;
+    margin-left: 8em;
     margin-right: 4em;
     flex-direction: column;
+    justify-content: center;
   }
   ._img {
     width: 15em;
@@ -66,5 +73,12 @@
   }
   ._content_wrapper {
     width: 15em;
+  }
+}
+
+@media (max-width: 576px){
+  .about {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
