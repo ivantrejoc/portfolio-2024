@@ -57,6 +57,7 @@ const DisplacementSphere = () => {
             alt="sphere"
             ref={sphereImageRef}
             loading="lazy"
+            fetchPriority="high"
           />
         </div>
       )}
