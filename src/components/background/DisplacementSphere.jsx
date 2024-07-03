@@ -56,6 +56,7 @@ const DisplacementSphere = () => {
             className="displacement-sphere"
             alt="sphere"
             ref={sphereImageRef}
+            loading="lazy"
           />
         </div>
       )}
