@@ -9,16 +9,16 @@
     "job1": "Full-Stack",
     "job2": "Developer",
     "description": "Hello world!",
-    "summary": "based Medellín, Colombia.",
-    "keywords": "personal,website,portfolio,template,kit,ivan,trejo,webdev,web,developer,colombia,medellín,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
+    "summary": "based in Sevilla, Spain.",
+    "keywords": "personal,website,portfolio,template,kit,ivan,trejo,webdev,web,developer,fullstack, frontend,backend,sevilla, spain,wordpress,gutenberg,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,native,express,postgres,mysql,mongodb,firebase,javascript,typescript",
     "url": "https://ivantrejo.vercel.app/",
     "location": {
       "address": "XX XXXXXstreet",
       "postalCode": "XXXXX",
-      "city": "Medellín",
-      "country": "Colombia",
-      "countryCode": "Col",
-      "region": "Antioquia"
+      "city": "Sevilla",
+      "country": "Spain",
+      "countryCode": "Esp",
+      "region": "Andalucía"
     },
     "profiles": [
       {
@@ -57,7 +57,7 @@
   "skills": [
     {
       "name": "Web Development",
-      "keywords": ["HTML", "CSS", "Javascript", "react", "next", "zustand", "redux", "express", "node","sequelize", "mysql", "postgres", "mongoDB", "bootstrap", "tailwindCSS", "materialUI", "firebase"]
+      "keywords": ["HTML", "CSS", "Javascript", "react", "next", "zustand", "redux", "express", "node","sequelize", "mysql", "postgres", "mongoDB", "bootstrap", "tailwindCSS", "materialUI", "firebase", "wordpress", "gutenberg", "react native", "redux toolkit", "typescript"]
     }
   ],
   "languages": [

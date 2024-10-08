@@ -7,8 +7,8 @@ export const About = () => {
   const theme = useTheme();
   const isLightTheme = theme.palette.mode === "light";
   const greetings = "Hello there!";
-  const aboutme = `I'm ${FirstName} ${LastName}. Passionate about coding, based in Medellín, Colombia.
-Specialized in business-oriented solutions, Backend development with robust, efficient, and secure logic, managing SQL and NoSQL databases. Frontend development with responsive and elegant design.
+  const aboutme = `I'm ${FirstName} ${LastName}. Full-stack Developer, Passionate about coding based in Sevilla - Spain.
+Specialized in business-oriented solutions, Backend development with robust, efficient, and secure logic, and managing SQL and NoSQL databases. Frontend development with responsive and elegant design.
 Let's work together and create amazing projects!
    `;
 
