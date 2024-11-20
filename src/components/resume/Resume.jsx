@@ -1,6 +1,6 @@
 import { Typography, Link, useTheme } from "@mui/material";
 import { TextDecrypt } from "../content/TextDecrypt";
-import ResumePDF from "./../../assets/resume.pdf";
+import resumePdf from "./../../assets/resume.pdf";
 import { ResumeIcon } from "../content/ResumeButton";
 
 export const Resume = () => {
@@ -10,7 +10,7 @@ export const Resume = () => {
     <Link
       color="inherit"
       underline="none"
-      href={`${ResumePDF}`}
+      href={`${resumePdf}`}
       target="_blank"
       rel="noopener noreferrer"
       sx={{

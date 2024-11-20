@@ -3,18 +3,18 @@
     "name": "Ivan Trejo",
     "label": "Full-Stack Developer",
     "email": "ivanjtrejoc@gmail.com",
-    "phone": "(+57) 3202430789",
+    "phone": "(+34) 664320240",
     "picture": "it-black.png",
     "x_title": "Hello, I'm",
     "job1": "Full-Stack",
     "job2": "Developer",
     "description": "Hello world!",
     "summary": "based in Sevilla, Spain.",
-    "keywords": "personal,website,portfolio,template,kit,ivan,trejo,webdev,web,developer,fullstack, frontend,backend,sevilla, spain,wordpress,gutenberg,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,native,express,postgres,mysql,mongodb,firebase,javascript,typescript",
+    "keywords": "personal,website,portfolio,template,kit,ivan,trejo,webdev,web,developer,fullstack,frontend,backend,sevilla, spain,wordpress,gutenberg,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,native,express,postgres,mysql,mongodb,firebase,javascript,typescript,docker,aws",
     "url": "https://ivantrejo.vercel.app/",
     "location": {
-      "address": "XX XXXXXstreet",
-      "postalCode": "XXXXX",
+      "address": "Calle Salamanca 10-1, Bellavista.",
+      "postalCode": "41014",
       "city": "Sevilla",
       "country": "Spain",
       "countryCode": "Esp",
@@ -49,7 +49,7 @@
       {
         "network": "WhatsApp",
         "username": "Ivan Trejo",
-        "url": "https://walink.co/dad99f",
+        "url": "https://walink.co/e5ad12",
         "x_icon": "fab fa-whatsapp"
       }
     ]
@@ -57,7 +57,7 @@
   "skills": [
     {
       "name": "Web Development",
-      "keywords": ["HTML", "CSS", "Javascript", "react", "next", "zustand", "redux", "express", "node","sequelize", "mysql", "postgres", "mongoDB", "bootstrap", "tailwindCSS", "materialUI", "firebase", "wordpress", "gutenberg", "react native", "redux toolkit", "typescript"]
+      "keywords": ["HTML", "CSS", "Javascript", "react", "nextjs", "zustand", "redux", "express", "node","sequelize", "mysql", "postgres", "mongoDB", "bootstrap", "tailwindCSS", "materialUI", "firebase", "aws", "docker", "wordpress", "woocommerce", "gutenberg", "react native", "redux toolkit", "nestjs", "typescript"]
     }
   ],
   "languages": [
