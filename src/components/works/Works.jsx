@@ -20,7 +20,7 @@ export const Works = () => {
     {
       id: 1,
       title: "GymFitness",
-      description: `Fully dynamic website developed with wordpress + php + JS. Theme and plugins tailor fit developed from scratch. Sections completly customizables by manager thanks to Advanced Custom Fields features`,
+      description: `Fully dynamic website developed with WordPress + PHP + JS. Theme and plugins tailor fit developed from scratch. Sections are totally customizable by the manager thanks to Advanced Custom Fields features`,
       alter: "Gymfitness",
       image: `${GymFitness}`,
       url: "https://gymfitness-mrd.nue.dom.my.id/"
@@ -92,7 +92,7 @@ export const Works = () => {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          gap:"1.5rem",
+          gap: "1.5rem",
           justifyContent: "center",
           marginBottom: "auto"
         }}
