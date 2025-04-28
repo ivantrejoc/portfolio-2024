@@ -10,7 +10,7 @@
     "job2": "Developer",
     "description": "Hello world!",
     "summary": "based in Sevilla, Spain.",
-    "keywords": "personal,website,portfolio,template,kit,ivan,trejo,webdev,web,developer,fullstack,frontend,backend,sevilla, spain,wordpress,gutenberg,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,native,express,postgres,mysql,mongodb,firebase,javascript,typescript,docker,aws",
+    "keywords": "personal,website,portfolio,template,kit,ivan,trejo,webdev,web,developer,fullstack,frontend,backend,sevilla,spain,wordpress,gutenberg,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,native,express,postgres,mysql,mongodb,firebase,javascript,typescript,php,wordpress themes, wordpress plugins,react native,docker,aws",
     "url": "https://ivantrejo.vercel.app/",
     "location": {
       "address": "Calle Salamanca 10-1, Bellavista.",
@@ -57,7 +57,7 @@
   "skills": [
     {
       "name": "Web Development",
-      "keywords": ["HTML", "CSS", "Javascript", "react", "nextjs", "zustand", "redux", "express", "node","sequelize", "mysql", "postgres", "mongoDB", "bootstrap", "tailwindCSS", "materialUI", "firebase", "aws", "docker", "wordpress", "woocommerce", "gutenberg", "react native", "redux toolkit", "nestjs", "typescript"]
+      "keywords": ["HTML", "CSS", "Javascript", "Typescript", "PHP", "react", "nextjs", "zustand", "redux", "express", "node","sequelize", "mysql", "postgres", "mongoDB", "bootstrap", "tailwindCSS", "materialUI", "firebase", "aws", "docker", "wordpress", "woocommerce", "gutenberg", "react native", "redux toolkit", "nestjs", "typescript"]
     }
   ],
   "languages": [

@@ -15,7 +15,7 @@ export const Contact = () => {
   const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
   const SERVICE_ID = import.meta.env.VITE_SERVICE_ID;
   const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
- 
+
   const [input, setInput] = useState({
     from_name: "",
     from_email: "",
@@ -84,6 +84,9 @@ export const Contact = () => {
       <Container
         component="main"
         sx={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
           maxWidth: "100vw",
           marginTop: "3em",
           marginBottom: "3em",

@@ -1,11 +1,9 @@
-.contact {    
-  display: flex;  
+.contact {
+  display: flex;
   width: 90%;
-  margin-left: 5rem;
-  margin-right: 10rem;
 }
 
-._form_wrapper {  
+._form_wrapper {
   display: flex;
   flex-direction: column;
   border-radius: 16px;
@@ -16,12 +14,11 @@
   padding: 2em;
 }
 
-.form{  
-  maxWidth: 100vw;
-  marginTop: 3em;
-  marginBottom: 3em;  
+.form {
+  maxwidth: 100vw;
+  margintop: 3em;
+  marginbottom: 3em;
 }
-
 
 .submit-btn {
   margin-right: 20px;
@@ -34,7 +31,7 @@
 .submit-btn:hover {
   margin-right: 20px;
   text-decoration: none;
-  background-color: #59E0C6;
+  background-color: #59e0c6;
 }
 
 .contact_msg {
@@ -42,15 +39,20 @@
   margin: 5rem;
 }
 
-@media (max-width: 1440px){
-  .contact_msg {    
+@media (max-width: 1440px) {
+  .contact_msg {
     margin: 5rem 5rem 5rem 1rem;
   }
 }
 
 @media (max-width: 1024px) {
+  .contact {
+    display: flex;
+    width: 100%;
+  }
+
   ._form_wrapper {
-    width: 300px;
+    width: 40rem;
     height: auto;
     margin-left: 4em;
     margin-right: 4em;
@@ -92,7 +94,7 @@
 }
 
 @media (max-width: 425px) {
-  .contact {    
+  .contact {
     margin-left: 2rem;
     margin-right: auto;
     margin-bottom: 7em;
