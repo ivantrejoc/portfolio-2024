@@ -10,6 +10,8 @@ import WebWizard from "../../assets/img/web-wizard.webp";
 import DiomarGarcia from "../../assets/img/diomar-garcia.webp";
 import Zoero from "../../assets/img/zoero-website.webp";
 import GymFitness from "../../assets/img/gymfitness.webp";
+import Caloriko from "../../assets/img/caloriko.webp";
+import AdoptMe from "../../assets/img/adoptme.webp";
 
 import "./Works.css";
 
@@ -80,6 +82,22 @@ export const Works = () => {
       alter: "Zoero",
       image: `${Zoero}`,
       url: "https://zoerowebsite.vercel.app/"
+    },
+    {
+      id: 9,
+      title: "Adoptme",
+      description: `Adopt a pet, set favorites and chat with pets owners with this nice mobile app. Developed using Expo & React Native`,
+      alter: "adoptme",
+      image: `${AdoptMe}`,
+      url: "https://expo.dev/accounts/ivantrejoc/projects/adoptme/builds/24debfaf-044a-4efd-949b-7b72dda9e0af"
+    },
+    {
+      id: 10,
+      title: "Caloriko",
+      description: `Set and achieve your weight goals with this nice mobile app. Count calories, create your daily menus and more. Developed using Expo & React Native.`,
+      alter: "caloriko",
+      image: `${Caloriko}`,
+      url: "https://expo.dev/accounts/ivantrejoc/projects/caloriko/builds/5f23d3f7-1e6b-4ed5-913c-a027b88a054a"
     }
   ]);
 
