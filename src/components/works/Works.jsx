@@ -25,7 +25,7 @@ export const Works = () => {
       description: `Fully dynamic website developed with WordPress + PHP + JS. Theme and plugins tailor fit developed from scratch. Sections are totally customizable by the manager thanks to Advanced Custom Fields features`,
       alter: "Gymfitness",
       image: `${GymFitness}`,
-      url: "https://gymfitness-mrd.nue.dom.my.id/"
+      url: "https://dev-gymfitnessmrd.pantheonsite.io/"
     },
     {
       id: 2,
@@ -129,7 +129,12 @@ export const Works = () => {
                   : "rgba(109, 109, 109, 0.4)"
               }}
             >
-              <a href={project.url} className="link">
+              <a
+                href={project.url}
+                target="_blank"
+                rel="noreferrer"
+                className="link"
+              >
                 <h3 className="title">
                   <TextDecrypt text={project.id + ". " + project.title} />
                 </h3>
