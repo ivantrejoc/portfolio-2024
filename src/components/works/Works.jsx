@@ -30,7 +30,7 @@ export const Works = () => {
     {
       id: 2,
       title: "JV Solutions",
-      description: `Beautiful website to the best motorcycles workshop in Panama. Developer with Wordpess +
+      description: `Beautiful website to the best motorcycles workshop in Panama. Developed using Wordpress + Elementor
       PHP + JS.`,
       alter: "jv-solutions",
       image: `${JvSolutions}`,
