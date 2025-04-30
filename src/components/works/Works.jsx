@@ -5,7 +5,7 @@ import { TextDecrypt } from "../content/TextDecrypt";
 import Worksplace from "../../assets/img/worksplace.webp";
 import Now from "../../assets/img/now.webp";
 import Buime from "../../assets/img/buime-shop.webp";
-import Chelion from "../../assets/img/chelion.webp";
+import JvSolutions from "../../assets/img/jv-solutions.webp";
 import WebWizard from "../../assets/img/web-wizard.webp";
 import DiomarGarcia from "../../assets/img/diomar-garcia.webp";
 import Zoero from "../../assets/img/zoero-website.webp";
@@ -29,11 +29,12 @@ export const Works = () => {
     },
     {
       id: 2,
-      title: "Chelion",
-      description: `European solar projects leader´s website. Developed with vanilla JS, HTML5 and CSS3.`,
-      alter: "Chelion",
-      image: `${Chelion}`,
-      url: "https://chelion-website.vercel.app/"
+      title: "JV Solutions",
+      description: `Beautiful website to the best motorcycles workshop in Panama. Developer with Wordpess +
+      PHP + JS.`,
+      alter: "jv-solutions",
+      image: `${JvSolutions}`,
+      url: "https://jvsolutionspty.com/"
     },
     {
       id: 3,
