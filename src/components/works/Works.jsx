@@ -106,7 +106,7 @@ export const Works = () => {
     <section id="works">
       <Container
         component="main"
-        sx={{
+        sx={{        
           marginTop: "3em",
           display: "flex",
           flexDirection: "column",
@@ -120,8 +120,11 @@ export const Works = () => {
         {projects.map((project) => (
           <div className="project" key={project.id}>
             <div className="__img_wrapper">
-              <img src={project.image} alt={project.alter} />
+              <a href={project.url} target="_blank" rel="noreferrer">
+                <img src={project.image} alt={project.alter} />
+              </a>
             </div>
+
             <div
               className="__content_wrapper"
               style={{
