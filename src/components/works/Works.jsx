@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Container, useTheme } from "@mui/material";
 import { TextDecrypt } from "../content/TextDecrypt";
-import Worksplace from "../../assets/img/worksplace.webp";
+import Medicapp from "../../assets/img/medicapp.webp";
 import Now from "../../assets/img/now.webp";
 import Buime from "../../assets/img/buime-shop.webp";
 import JvSolutions from "../../assets/img/jv-solutions.webp";
@@ -46,19 +46,19 @@ export const Works = () => {
     },
     {
       id: 4,
+      title: "Medicapp",
+      description: `A full-stack web application completely responsive to managing medical appointments, you can create, read, edit, and delete appointments. You can also create, read, edit, or delete your medical story.\nThe front end was developed using React + Vite + Material UI.\nThe backend was developed with NodeJs + Express + Sequelize.\nDatabase developed with Postgres.`,
+      alter: "medicapp",
+      image: `${Medicapp}`,
+      url: "https://medicapp-frontend.vercel.app/"
+    },
+    {
+      id: 5,
       title: "Buime",
       description: `Nice ecommerce which renders fakestore api, includes shopping cart and checkout view, will soon have a payment runway with Stripe. Developed using Next Js, Typescript and TailwindCSS.`,
       alter: "Buime",
       image: `${Buime}`,
       url: "https://buime-ecommerce.vercel.app/"
-    },
-    {
-      id: 5,
-      title: "Worksplace",
-      description: `Landing page to employment agency based in New York, developed in Wordpress.`,
-      alter: "Worksplace",
-      image: `${Worksplace}`,
-      url: "https://worksplaceus.com/"
     },
     {
       id: 6,
